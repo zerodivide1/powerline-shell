@@ -19,6 +19,11 @@ SEGMENTS = [
 # Show the machine's hostname. Mostly used when ssh-ing into other machines
     'hostname',
 
+# Show the current user's username and machine's hostname in a single segment
+# in a format like 'user@host' (turn off 'username' and 'hostname' to avoid
+# duplicating information)
+    #'combined_user_host',
+
 # Show a padlock when ssh-ing from another machine
     'ssh',
 
